@@ -1,7 +1,7 @@
 ---
 crosscompute: 0.9.4
 name: Suggest Conference
-description: Suggest a conference to include in your conference planner
+description: Suggest a conference to include in our conference planner
 version: 0.0.1
 input:
   variables:
