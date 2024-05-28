@@ -1,0 +1,6 @@
+---
+crosscompute: 0.9.4
+imports:
+  - path: show-conferences/automate.yaml
+  - path: suggest-conference/automate.yaml
+  - path: review-suggestions/automate.yaml
