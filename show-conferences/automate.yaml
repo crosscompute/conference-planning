@@ -13,6 +13,9 @@ input:
       path: variables.dictionary
 output:
   variables:
+    - id: gantt
+      view: image
+      path: gantt.svg
     - id: calendar
       view: markdown
       path: calendar.md
@@ -24,8 +27,12 @@ environment:
   packages:
     - id: pandas
       manager: pip
+    - id: matplotlib
+      manager: pip
   interval: 1 day
 display:
+  styles:
+    - path: style.css
   pages:
     - id: automation
       configuration:
